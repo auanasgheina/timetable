@@ -1,0 +1,41 @@
+[
+	{
+		"tipo": "lezione",
+		"stato": "success",
+		"annoAcr": "anno3",
+		"corsoAcr":"fis",
+		"aula": {
+			"acr": "mic",
+			"colore": "000000"
+		},
+		"giorno": "giovedi",
+		"inizio": 1400,
+		"fine": 1600
+	},
+	{
+		"tipo": "lezione",
+		"stato": "success",
+		"annoAcr": "anno4",
+		"corsoAcr":"bdsi",
+		"aula": {
+			"acr": "raf",
+			"colore": "000000"
+		},
+		"giorno": "giovedi",
+		"inizio": 1400,
+		"fine": 1600
+	},
+	{
+		"tipo": "lezione",
+		"stato": "success",
+		"annoAcr": "anno1",
+		"corsoAcr":"ana",
+		"aula": {
+			"acr": "mic",
+			"colore": "000000"
+		},
+		"giorno": "venerdi",
+		"inizio": 1400,
+		"fine": 1600
+	}
+]
