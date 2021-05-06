@@ -32,16 +32,6 @@ app.use(cors());
 //redirect pagina iniziale
 //app.get('/', (req, res) => res.redirect('/timetable.html'));
 
-// app.get('/', (req, res) => {
-//   res.send(`
-//     <h2>With <code>"express"</code> npm package</h2>
-//     <form action="/file/upload" enctype="multipart/form-data" method="post">
-//       <div>File: <input type="file" name="fileInput" multiple="multiple" /></div>
-//       <input type="submit" value="Upload" />
-//     </form>
-//   `);
-// });
-
 app.use('/', async (req, res, next) => {
     try {
         const client = new MongoClient(mongodbUri, {
