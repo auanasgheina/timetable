@@ -2,7 +2,7 @@
 	{
 		"tipo": "lezione",
 		"stato": "success",
-		"annoAcr": "anno3",
+		"annoAcr": "anno1",
 		"corsoAcr":"fis",
 		"aula": {
 			"acr": "mic",
@@ -15,27 +15,43 @@
 	{
 		"tipo": "lezione",
 		"stato": "success",
-		"annoAcr": "anno4",
+		"annoAcr": "anno2",
 		"corsoAcr":"bdsi",
 		"aula": {
 			"acr": "raf",
 			"colore": "000000"
 		},
-		"giorno": "giovedi",
-		"inizio": 1400,
-		"fine": 1600
+		"giorno": "martedi",
+		"inizio": 900,
+		"fine": 1100
 	},
 	{
 		"tipo": "lezione",
 		"stato": "success",
-		"annoAcr": "anno1",
-		"corsoAcr":"ana",
+		"annoAcr": "anno3",
+		"corsoAcr":"comp",
 		"aula": {
 			"acr": "mic",
 			"colore": "000000"
 		},
-		"giorno": "venerdi",
+		"giorno": "mercoledi",
 		"inizio": 1400,
 		"fine": 1600
+	},
+	{
+		"tipo":"vincolo",
+		"stato":"success",
+		"corsoAcr":"ana",
+		"giorno":"mercoledi",
+		"inizio":900,
+		"fine":1300
+	},
+	{
+		"tipo":"vincolo",
+		"stato":"danger",
+		"corsoAcr":"ana",
+		"giorno":"lunedi",
+		"inizio":900,
+		"fine":1300
 	}
 ]
